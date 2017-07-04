@@ -29,10 +29,10 @@ Installation and Reproduction Steps:
 `$ sudo apt-get -y install git make`
 
 2. Clone the repository:
-`$ git clone https://github.com/sibanez12/dctcp-ns2.git`
+`$ git clone https://github.com/cheho/DCTCP.git`
 
 3. Install the dependencies (this will take about 8 minutes):
-`$ cd dctcp-ns2 && make`
+`$ cd DCTCP && make`
 
 4. Reproduce the results (this will take about 5 minutes):
 `$ ./run.sh`
