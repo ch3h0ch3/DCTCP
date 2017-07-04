@@ -25,7 +25,7 @@ def make_fig_1():
     for congestion_alg in ['TCP','DCTCP']:
         out_q_file = congestion_alg + '_q_size.out' 
         # run NS-2 simulation
-        num_flows = 3
+        num_flows = 2
         K = 20
         link_cap = '100Mbps'
         link_delay = '0.25ms'
