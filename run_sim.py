@@ -108,8 +108,8 @@ def main():
     if (args.fig_1):
         make_fig_1()
 
-    #if (args.fig_13):
-    #    make_fig_13()
+    if (args.fig_13):
+        make_fig_13()
 
     #if (args.fig_14):
     #    make_fig_14()
