@@ -46,7 +46,7 @@ def make_fig_13():
             os.makedirs(PLOTS_DIR)
     if not os.path.exists('tcl/out'):
             os.makedirs('tcl/out')
-    for num_flows in [2, 20]:
+    for num_flows in [2, 20, 50]:
         for congestion_alg in ['TCP','DCTCP']:
             out_q_file = congestion_alg + '_q_size.out' 
             K = 20
